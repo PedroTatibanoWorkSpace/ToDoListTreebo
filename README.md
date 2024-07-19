@@ -46,7 +46,7 @@ Este projeto é uma aplicação de lista de tarefas (To-Do List) dividida em dua
 
 ## Documentação da API
 
-A documentação da API está disponível via Swagger em [http://localhost:3000/api](http://localhost:200/api) depois do projeto já ter sido executado.
+A documentação da API está disponível via Swagger em [http://localhost:200/api](http://localhost:200/api) depois do projeto já ter sido executado.
 
 ## Licença
 

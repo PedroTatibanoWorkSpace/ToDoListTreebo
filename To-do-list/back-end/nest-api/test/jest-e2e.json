@@ -1,0 +1,32 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".e2e-spec.ts$",
+  "transform": {
+    "^.+\\.(t|j)s$": "ts-jest"
+  },
+  "collectCoverage": true,
+  "coverageDirectory": "./coverage",
+  "coverageReporters": ["json", "lcov", "text", "clover"],
+  "testTimeout": 30000,
+  "setupFilesAfterEnv": ["<rootDir>/setup-jest.ts"],
+  "testPathIgnorePatterns": ["/node_modules/"],
+  "coveragePathIgnorePatterns": ["/node_modules/", "/dist/"],
+  "reporters": [
+    "default",
+    [
+      "jest-junit",
+      {
+        "outputDirectory": "./reports",
+        "outputName": "junit.xml"
+      }
+    ]
+  ],
+  "globals": {
+    "ts-jest": {
+      "tsconfig": "<rootDir>/tsconfig.json",
+      "diagnostics": true
+    }
+  }
+}

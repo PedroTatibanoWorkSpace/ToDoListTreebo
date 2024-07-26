@@ -1,60 +1,80 @@
-# To-Do List Application
+<div align="center">
+  <h1>To-Do List Application</h1>
+  <p>Este projeto é uma aplicação de lista de tarefas (To-Do List) dividida em duas partes:</p>
+  <ul>
+    <li><strong>Frontend</strong> - Localizado na pasta <code>frontend</code></li>
+    <li><strong>Backend</strong> - Localizado na pasta <code>backend</code></li>
+  </ul>
+</div>
 
-Este projeto é uma aplicação de lista de tarefas (To-Do List) dividida em duas partes:
+<h2 style="margin-top: 20px;">Tecnologias Utilizadas</h2>
 
-- **Frontend** - Localizado na pasta `frontend`
-- **Backend** - Localizado na pasta `backend`
+<h3>Backend</h3>
+<ul>
+  <li><strong>NestJS com TypeScript</strong></li>
+  <li><strong>Swagger</strong> para documentação da API</li>
+  <li><strong>Jest</strong> para testes automatizados</li>
+  <li><strong>TypeORM</strong> para integração com banco de dados</li>
+  <li><strong>Sentry</strong> para logging e monitoramento</li>
+  <li><strong>CORS</strong> para controle de acesso</li>
+</ul>
 
-## Tecnologias Utilizadas
+<h3>Frontend</h3>
+<ul>
+  <li><strong>React</strong></li>
+  <li><strong>Tailwind CSS</strong> para estilização</li>
+  <li><strong>Redux com Toolkit</strong> para gerenciamento de estado</li>
+  <li><strong>Axios</strong> para comunicação com a API</li>
+  <li><strong>Lazy Loading</strong> para carregamento otimizado</li>
+</ul>
 
-### Backend
+<h2 style="margin-top: 20px;">Funcionalidades</h2>
 
-- NestJS com TypeScript
-- Swagger para documentação da API
-- Jest para testes automatizados
-- TypeORM para integração com banco de dados
-- Sentry para logging e monitoramento
-- CORS para controle de acesso
+<h3>Backend:</h3>
+<ul>
+  <li>Adicionar Tarefa</li>
+  <li>Excluir Tarefa</li>
+  <li>Editar Tarefa</li>
+  <li>Marcar Tarefa como Concluída</li>
+  <li>Resgatar uma única Tarefa</li>
+  <li>Resgatar todas as Tarefas</li>
+</ul>
 
-### Frontend
+<h3>Frontend:</h3>
+<ul>
+  <li>Interface para Adicionar, Editar e Excluir Tarefas</li>
+  <li>Listagem de Tarefas com opção de marcar como concluída</li>
+  <li>Gerenciamento de estado com Redux</li>
+  <li>Comunicação com a API utilizando Axios</li>
+  <li>Estilização responsiva com Tailwind CSS</li>
+  <li>Lazy Loading para otimização de carregamento</li>
+</ul>
 
-- React
-- Tailwind CSS para estilização
-- Redux com Toolkit para gerenciamento de estado
-- Axios para comunicação com a API
-- Lazy Loading para carregamento otimizado
+<h2 style="margin-top: 20px;">Documentação da API</h2>
+<p>A documentação da API está disponível via Swagger em <a href="http://localhost:200/api" target="_blank">http://localhost:200/api</a> depois do projeto já ter sido executado.</p>
 
-## Funcionalidades
+<h2 style="margin-top: 20px;">Licença</h2>
+<p>Este projeto está licenciado sob a Licença MIT - veja o arquivo <strong><a href="https://github.com/PedroTatibanoWorkSpace/ToDoListTreebo/blob/master/LICENSE" target="_blank">LICENSE</a></strong> para detalhes.</p>
 
-### Backend:
+<h2 style="margin-top: 20px;">Contato</h2>
+<p>Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:</p>
+<ul>
+  <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/pedro-tatibano/" target="_blank">Pedro Tatibano</a></li>
+  <li><strong>Email:</strong> <a href="mailto:pedrotatibano1900@gmail.com">pedrotatibano1900@gmail.com</a></li>
+</ul>
 
-- Adicionar Tarefa
-- Excluir Tarefa
-- Editar Tarefa
-- Marcar Tarefa como Concluída
-- Resgatar uma única Tarefa
-- Resgatar todas as Tarefas
+<h2 style="margin-top: 20px;">Prints da Tela</h2>
+<p>Aqui estão alguns prints da tela do aplicativo:</p>
 
-### Frontend:
-
-- Interface para Adicionar, Editar e Excluir Tarefas
-- Listagem de Tarefas com opção de marcar como concluída
-- Gerenciamento de estado com Redux
-- Comunicação com a API utilizando Axios
-- Estilização responsiva com Tailwind CSS
-- Lazy Loading para otimização de carregamento
-
-## Documentação da API
-
-A documentação da API está disponível via Swagger em [http://localhost:200/api](http://localhost:200/api) depois do projeto já ter sido executado.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## Contato
-
-Se você tiver alguma dúvida ou sugestão, sinta-se à vontade para entrar em contato comigo:
-
-- **LinkedIn:** [Pedro Tatibano](https://www.linkedin.com/in/pedro-tatibano/)
-- **Email:** [pedrotatibano1900@gmail.com](mailto:pedrotatibano1900@gmail.com)
+<div align="center">
+  <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+    <div style="flex: 1 1 45%; padding: 5px;">
+      <p><strong>Tela Home</strong></p>
+      <img src="https://github.com/PedroTatibanoWorkSpace/images/blob/main/PrintTreeboProject.png" alt="Tela de Registro" style="width: 70%; max-width: 150px;"/>
+    </div>
+    <div style="flex: 1 1 45%; padding: 5px;">
+      <p><strong>Tela com sideBar aberto</strong></p>
+      <img src="https://github.com/PedroTatibanoWorkSpace/images/blob/main/SideBarTreeboProject.png" alt="Tela de Login" style="width: 70%; max-width: 150px;"/>
+    </div>
+  </div>
+</div>
